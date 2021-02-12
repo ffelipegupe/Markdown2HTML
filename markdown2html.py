@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """ Markdown to HTML """
+
 import sys
 import os.path
 
 
 if __name__ == "__main__":
     """ Function that takes an argument 2 strings """
-    if len(sys.argv) < 2:
+    if len(sys.argv) < 3:
         print("Usage: ./markdown2html.py README.md README.html",
               file=sys.stderr)
         exit(1)
